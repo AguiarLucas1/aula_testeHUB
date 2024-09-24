@@ -1,0 +1,55 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(47, 53, 55);
+    color: rgb(55, 253, 78);
+
+}
+
+h2
+{
+    text-align: center;
+
+}
+
+.coluna
+{
+    width: 100%;
+    padding: 8px;
+}
+
+.price-box
+{
+    background-color: rgb(132, 127, 115);
+    color: rgb(231, 208, 77);
+    list-style-type: none;
+    border: 1px solid #97e4f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    background-color: rgb(255, 67, 67);
+    color: azure;
+    font-size: 25px;
+}
+
+li{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 20px solid #eee;
+}
+
+.corpo
+{
+    display: flex;
+}
+
+@media(max-width: 720px)
+{
+    .corpo{
+        flex-direction: column;
+    }
+}
+
